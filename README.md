@@ -129,7 +129,10 @@ This will create two files in your Meteor Up project directory:
 
   // Meteor Up checks if the app comes online just after the deployment.
   // Before mup checks that, it will wait for the number of seconds configured below.
-  "deployCheckWaitTime": 15
+  "deployCheckWaitTime": 15,
+
+  // Debug, launches Meteor with --debug flag, allows easier debugging in console
+  "debug": true
 }
 ```
 
